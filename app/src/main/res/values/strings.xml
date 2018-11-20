@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Kotlin MultiPlatform</string>
+    <string name="no_items">No Movies</string>
+    <string name="search_movies">Search Movies</string>
+</resources>
