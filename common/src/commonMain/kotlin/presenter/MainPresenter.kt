@@ -1,7 +1,7 @@
 package com.sangeetsuresh.kotlincommon
 
-import com.sangeetsuresh.kotlincommon.interactor.MainInteractor
-import com.sangeetsuresh.kotlincommon.interactor.MainInteractorImpl
+import com.sangeetsuresh.kotlincommon.interactor.MainRepository
+import com.sangeetsuresh.kotlincommon.interactor.MainRepositoryImpl
 
 interface MainPresenter {
     fun searchTitle(text: String?)
@@ -9,7 +9,7 @@ interface MainPresenter {
 
 class MainPresenterImpl(private val mainView: MainView) : MainPresenter {
 
-    private val mainInteractor: MainInteractor = MainInteractorImpl()
+    private val mainInteractor: MainRepository = MainRepositoryImpl()
 
     override fun searchTitle(text: String?) {
         mainView.showProgress()
