@@ -1,7 +1,8 @@
-package com.sangeetsuresh.kotlincommon
+package com.sangeetsuresh.kotlincommon.presenter
 
-import com.sangeetsuresh.kotlincommon.interactor.MainRepository
-import com.sangeetsuresh.kotlincommon.interactor.MainRepositoryImpl
+import com.sangeetsuresh.kotlincommon.view.MainView
+import com.sangeetsuresh.kotlincommon.repository.MainRepository
+import com.sangeetsuresh.kotlincommon.repository.MainRepositoryImpl
 
 interface MainPresenter {
     fun searchTitle(text: String?)

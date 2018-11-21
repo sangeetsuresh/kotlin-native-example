@@ -1,4 +1,4 @@
-package com.sangeetsuresh.kotlincommon
+package com.sangeetsuresh.kotlincommon.view
 
 import com.sangeetsuresh.kotlincommon.model.SearchResult
 

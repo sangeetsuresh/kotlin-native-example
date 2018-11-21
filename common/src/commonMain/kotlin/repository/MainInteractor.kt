@@ -1,4 +1,4 @@
-package com.sangeetsuresh.kotlincommon.interactor
+package com.sangeetsuresh.kotlincommon.repository
 
 import com.sangeetsuresh.kotlincommon.model.SearchResult
 import com.sangeetsuresh.kotlincommon.performGetRequest
