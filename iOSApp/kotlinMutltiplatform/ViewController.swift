@@ -27,12 +27,9 @@ class ViewController: UIViewController,MainView,UICollectionViewDataSource,UICol
     
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        debugPrint("Count: \(dataStore.searchItems.count)")
         return dataStore.searchItems.count
     }
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-         debugPrint("Count Inside: \(dataStore.searchItems.count)")
-        debugPrint("Postion \(indexPath.row)")
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "collectionViewCell", for: indexPath) as! CollectionViewCell
         cell.displayContent(searchItem:dataStore.searchItems[indexPath.item])
         return cell
