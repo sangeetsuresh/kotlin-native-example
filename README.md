@@ -1,7 +1,7 @@
 # kotlin-native-example 
 # Imp : Work in Progress
 
-Usage kotlin multiplatform feature to create an app in which whole business logic is wirtten in Kotlin language
+Usage kotlin multiplatform feature to create an Android and iOS app in which whole business logic is wirtten in Kotlin language
 
 View layer is written in platform specific languages
 
