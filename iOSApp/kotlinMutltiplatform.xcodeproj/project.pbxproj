@@ -293,7 +293,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "cd ${SRCROOT}/../common/\n./gradlew :common:packForXCode";
+			shellScript = "cd ${SRCROOT}/../\n./gradlew :common:packForXCode";
 		};
 /* End PBXShellScriptBuildPhase section */
 
