@@ -20,3 +20,5 @@ Presenter and Model layer is written in Kotlin language
         + androidMain - kotlin platform specific code for Android
         
 * iOSApp is for iOS app code
+
+If you getting sdk.dir not found error during building, create `local.properties` in root project folder and add `sdk.dir=<android sdk library>` into that file
