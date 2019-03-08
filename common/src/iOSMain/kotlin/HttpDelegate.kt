@@ -17,12 +17,12 @@ actual class HttpDelegate {
             executeAsync(NSOperationQueue.mainQueue) {
                 var response:String?=null
                 try {
-                    val request = NSMutableURLRequest().init()
-                    request?.setHTTPMethod("GET")
-                    request?.setURL(NSURL.URLWithString(url))
+                    val request = NSMutableURLRequest()
+                    request.setHTTPMethod("GET")
+                    request.setURL(NSURL.URLWithString(url))
 
                     val responseCode: NSHTTPURLResponse? = null
-                    val oResponseData = NSURLConnection.sendSynchronousRequest(request!!, null, error = null);
+                    val oResponseData = NSURLConnection.sendSynchronousRequest(request, null, error = null);
                     if (responseCode?.statusCode != 200L) {
                     }
                     response = NSString.create(data = oResponseData!!, encoding = NSUTF8StringEncoding)!! as String
