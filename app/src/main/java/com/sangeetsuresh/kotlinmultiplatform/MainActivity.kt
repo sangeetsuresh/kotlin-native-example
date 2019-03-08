@@ -4,10 +4,10 @@ import android.os.Bundle
 import android.os.Handler
 import android.support.v7.app.AppCompatActivity
 import android.view.View
-import com.sangeetsuresh.kotlincommon.MainPresenter
-import com.sangeetsuresh.kotlincommon.MainPresenterImpl
-import com.sangeetsuresh.kotlincommon.MainView
 import com.sangeetsuresh.kotlincommon.model.SearchResult
+import com.sangeetsuresh.kotlincommon.presenter.MainPresenter
+import com.sangeetsuresh.kotlincommon.presenter.MainPresenterImpl
+import com.sangeetsuresh.kotlincommon.view.MainView
 import kotlinx.android.synthetic.main.activity_main.et_search_movies
 import kotlinx.android.synthetic.main.activity_main.progress_bar
 import kotlinx.android.synthetic.main.activity_main.rv_movies
